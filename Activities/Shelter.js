@@ -10,18 +10,18 @@ var shelter = {
 
 //Debug the code below 
 function dogMessage() {
-   console.log("Congrats! " + shelter.dogs + ", a great dog, is available for adoption!");
+   console.log("Congrats! " + chosenPet + ", a great dog, is available for adoption!");
    apptMessage();
 }
 
 function catMessage() {
-  console.log("Congrats! " + shelter.cat + ", an awesome cat, is available for adoption!");
+  console.log("Congrats! " + chosenPet + ", an awesome cat, is available for adoption!");
   shelter.apptMessage;
 }
 
-if (shelter.dogs.includes(shelter.dogs)) {
+if (shelter.dogs.includes(chosenPet)) {
   dogMessage();
-} else if (shelter.cats.includes(shelter.cats)) {
+} else if (shelter.cats.includes(chosenPet)) {
   catMessage();
 } else {
   console.log("It looks like the pet is not available.");
